@@ -1,0 +1,180 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo a:first-child{
+    display: block;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3498db;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.logo h1{
+    color: #3498db;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.logo a:last-child{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.menu{
+    background-color: #34495e;
+    margin: 10px 0;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li a{
+    text-transform: capitalize;
+    margin: 0 10px;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px;
+}
+.menu ul li a:hover,.menu ul li.active a{
+    background-color: #3498db;
+}
+.login-box{
+    width: 500px;
+    margin: 20px auto;
+    background-color: #ededed;
+    padding: 20px;
+    border-radius: 5px;
+}
+.login-box h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.input{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.login-box label{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.login,.btn-black,.btn-green,.btn-red{
+    outline: none;
+    border: none;
+    padding: 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-black{
+    background-color: black;
+}
+.btn-green{
+    display: inline-block;
+    background-color: green;
+}
+.btn-red{
+    display: inline-block;
+    background-color: red;
+}
+footer{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 15px;
+}
+footer h2{
+    margin: 5px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+table{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 3px;
+    text-transform: capitalize;
+    text-align: center;
+    border-collapse: collapse;
+}
+table th,table td{
+    padding: 10px;
+}
+table tr{
+    border-bottom: 2px solid black;
+}
+table tr:first-child{
+    border-top: 2px solid black;
+}
+table tr:last-child{
+    border-bottom: none;
+}
+table img{
+    width: 100px;
+    border-radius: 4px;
+}
+.pagination{
+    padding: 20px;
+    margin: 0 auto;
+}
+.pagination a{
+    text-transform: capitalize;
+    font-size: 20px;
+    background-color: #3c40c6;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0 3px;
+}
+.pagination a.active{
+    background-color: #f53b57;
+}
+.post-form{
+    width: 70%;
+}
+.post-form img{
+    width: 200px;
+    border-radius: 4px;
+}
+.post-form .input,.post-form textarea{
+    width: 80%;
+}
+.post-form textarea{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.post-form select{
+    outline: none;
+    border: none;
+    background-color: indigo;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
